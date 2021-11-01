@@ -197,7 +197,7 @@ const Home = () => {
                 Weather App <i className="fas fa-arrow-right"></i>
               </a>
               <br></br>
-              <p className="lead" style={{ fontSize: "20px" }}>
+              <p className="lead" style={{ fontSize: "12px" }}>
                 A web app to help you to know Temperatures in your side to all
                 along world.
                 <span
@@ -205,31 +205,31 @@ const Home = () => {
                     marginTop: "20px",
                     display: "flex",
                     justifyContent: "space-between",
-                    width: "350px",
+                    width: "280px",
                   }}
                 >
                   <span
                     className="btn btn-outline-dark btn-sm"
-                    style={{ fontSize: "15px" }}
+                    style={{ fontSize: "12px" }}
                   >
                     ReactJs
                   </span>
                   <span
                     className="btn btn-outline-dark btn-sm"
-                    style={{ fontSize: "15px" }}
+                    style={{ fontSize: "12px" }}
                   >
                     React-Bootstrap
                   </span>
                   <span
                     className="btn btn-outline-dark btn-sm"
-                    style={{ fontSize: "15px" }}
+                    style={{ fontSize: "12px" }}
                   >
                     OpenweatherApi
                   </span>
                 </span>
               </p>
               <a
-                className="fw-bold btn "
+                className="fw-bold btn mt-3 "
                 href="https://github.com/sujit6060/WatchMyShow"
                 target="_blank"
                 rel="noreferrer"
@@ -244,32 +244,32 @@ const Home = () => {
                     marginTop: "20px",
                     display: "flex",
                     justifyContent: "space-between",
-                    width: "270px",
+                    width: "230px",
                   }}
                 >
                   <span
                     className="btn btn-outline-dark btn-sm"
-                    style={{ fontSize: "15px" }}
+                    style={{ fontSize: "12px" }}
                   >
                     ReactJs
                   </span>
 
                   <span
                     className="btn btn-outline-dark btn-sm"
-                    style={{ fontSize: "15px" }}
+                    style={{ fontSize: "12px" }}
                   >
                     Semantic Ui
                   </span>
                   <span
                     className="btn btn-outline-dark btn-sm"
-                    style={{ fontSize: "15px" }}
+                    style={{ fontSize: "12px" }}
                   >
                     TMDB API
                   </span>
                 </span>
               </p>
               <a
-                className="fw-bold btn "
+                className="fw-bold btn  mt-3"
                 href="https://github.com/sujit6060/Trend-Shop"
                 target="_blank"
                 rel="noreferrer"
@@ -284,37 +284,37 @@ const Home = () => {
                     marginTop: "20px",
                     display: "flex",
                     justifyContent: "space-between",
-                    width: "350px",
+                    width: "300px",
                   }}
                 >
                   <span
                     className="btn btn-outline-dark btn-sm"
-                    style={{ fontSize: "15px" }}
+                    style={{ fontSize: "12px" }}
                   >
                     ReactJs
                   </span>
                   <span
                     className="btn btn-outline-dark btn-sm"
-                    style={{ fontSize: "15px" }}
+                    style={{ fontSize: "12px" }}
                   >
                     Redux
                   </span>
                   <span
                     className="btn btn-outline-dark btn-sm"
-                    style={{ fontSize: "15px" }}
+                    style={{ fontSize: "12px" }}
                   >
                     Material Ui
                   </span>
                   <span
                     className="btn btn-outline-dark btn-sm"
-                    style={{ fontSize: "15px" }}
+                    style={{ fontSize: "12px" }}
                   >
                     FakeShopApi
                   </span>
                 </span>
               </p>
               <a
-                className="fw-bold btn "
+                className="fw-bold btn  mt-3"
                 href="https://github.com/sujit6060/BuyBookNow"
                 target="_blank"
                 rel="noreferrer"
@@ -329,18 +329,18 @@ const Home = () => {
                     marginTop: "20px",
                     display: "flex",
                     justifyContent: "space-between",
-                    width: "200px",
+                    width: "170px",
                   }}
                 >
                   <span
                     className="btn btn-outline-dark btn-sm"
-                    style={{ fontSize: "15px" }}
+                    style={{ fontSize: "12px" }}
                   >
                     ReactJs
                   </span>
                   <span
                     className="btn btn-outline-dark btn-sm"
-                    style={{ fontSize: "15px" }}
+                    style={{ fontSize: "12px" }}
                   >
                     React-Bootstrap
                   </span>
