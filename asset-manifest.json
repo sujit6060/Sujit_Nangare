@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Sujit_Nangare/static/css/main.bab0b925.chunk.css",
+    "main.js": "/Sujit_Nangare/static/js/main.77cae445.chunk.js",
+    "main.js.map": "/Sujit_Nangare/static/js/main.77cae445.chunk.js.map",
+    "runtime-main.js": "/Sujit_Nangare/static/js/runtime-main.8eb75b01.js",
+    "runtime-main.js.map": "/Sujit_Nangare/static/js/runtime-main.8eb75b01.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/Sujit_Nangare/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.d4f2c0db.chunk.js": "/Sujit_Nangare/static/js/2.d4f2c0db.chunk.js",
+    "static/js/2.d4f2c0db.chunk.js.map": "/Sujit_Nangare/static/js/2.d4f2c0db.chunk.js.map",
+    "static/js/3.1c2d89c4.chunk.js": "/Sujit_Nangare/static/js/3.1c2d89c4.chunk.js",
+    "static/js/3.1c2d89c4.chunk.js.map": "/Sujit_Nangare/static/js/3.1c2d89c4.chunk.js.map",
+    "index.html": "/Sujit_Nangare/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/Sujit_Nangare/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.bab0b925.chunk.css.map": "/Sujit_Nangare/static/css/main.bab0b925.chunk.css.map",
+    "static/js/2.d4f2c0db.chunk.js.LICENSE.txt": "/Sujit_Nangare/static/js/2.d4f2c0db.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8eb75b01.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.d4f2c0db.chunk.js",
+    "static/css/main.bab0b925.chunk.css",
+    "static/js/main.77cae445.chunk.js"
+  ]
+}
