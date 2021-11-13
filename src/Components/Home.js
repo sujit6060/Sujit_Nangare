@@ -12,9 +12,9 @@ const Home = () => {
   }
 
   return (
-    <div style={{ padding: "80px" }}>
+    <div className="container" style={{ marginTop: "100px" }}>
       <div className="container">
-        <div className="mt-5 fw-bolder lead">
+        <div className="fw-bolder lead">
           <h1 style={{ fontSize: "50px" }}>
             Hey , I'm{" "}
             <span style={{ color: "#cc7000" }}>
@@ -43,7 +43,7 @@ const Home = () => {
         </div>
         <Form className="my-5">
           <Row className=" lead ">
-            <Col className="mt-5 lead  text-center" xs={4}>
+            <Col className="lead  text-center" xs={4}>
               <span className="fw-bold" style={{ color: "#cc7000" }}>
                 BACKGROUND
               </span>
@@ -81,10 +81,10 @@ const Home = () => {
                 SKILLS
               </span>
             </Col>
-            <Col className="mt-5 lead fs-10 " xs={8}>
+            <Col className="lead fs-10 " xs={8}>
               <div>
                 <Row className="py-5 ">
-                  <Col xs={2}>
+                  <Col xs={3}>
                     <div style={{ fontSize: "40px", marginLeft: "20px" }}>
                       <i
                         className="fab fa-html5 "
@@ -93,8 +93,8 @@ const Home = () => {
                       ></i>
                     </div>
                   </Col>
-                  <Col xs={2}>
-                    <div style={{ fontSize: "40px", marginLeft: "40px" }}>
+                  <Col xs={3}>
+                    <div style={{ fontSize: "40px", marginLeft: "20px" }}>
                       <i
                         className="fab fa-css3 "
                         onMouseOver={changeBackground}
@@ -102,8 +102,8 @@ const Home = () => {
                       ></i>
                     </div>
                   </Col>
-                  <Col xs={2}>
-                    <div style={{ fontSize: "40px", marginLeft: "40px" }}>
+                  <Col xs={3}>
+                    <div style={{ fontSize: "40px", marginLeft: "20px" }}>
                       <i
                         className="fab fa-js "
                         onMouseOver={changeBackground}
@@ -111,11 +111,11 @@ const Home = () => {
                       ></i>
                     </div>
                   </Col>
-                  <Col xs={2} style={{}}>
+                  <Col xs={3}>
                     <div
                       style={{
                         fontSize: "40px",
-                        marginLeft: "40px",
+                        marginLeft: "20px",
                       }}
                     >
                       <i
@@ -129,7 +129,7 @@ const Home = () => {
               </div>
               <div>
                 <Row className="py-1 ">
-                  <Col xs={2}>
+                  <Col xs={3}>
                     <div
                       style={{
                         fontSize: "40px",
@@ -143,11 +143,11 @@ const Home = () => {
                       ></i>
                     </div>
                   </Col>
-                  <Col xs={2}>
+                  <Col xs={3}>
                     <div
                       style={{
                         fontSize: "40px",
-                        marginLeft: "40px",
+                        marginLeft: "20px",
                       }}
                     >
                       <i
@@ -157,8 +157,8 @@ const Home = () => {
                       ></i>
                     </div>
                   </Col>
-                  <Col xs={2}>
-                    <div style={{ fontSize: "40px", marginLeft: "40px" }}>
+                  <Col xs={3}>
+                    <div style={{ fontSize: "40px", marginLeft: "20px" }}>
                       <i
                         className="fab fa-node"
                         onMouseOver={changeBackground}
@@ -166,8 +166,8 @@ const Home = () => {
                       ></i>
                     </div>
                   </Col>
-                  <Col xs={2}>
-                    <div style={{ fontSize: "40px", marginLeft: "40px" }}>
+                  <Col xs={3}>
+                    <div style={{ fontSize: "40px", marginLeft: "20px" }}>
                       <i
                         className="fab fa-npm "
                         onMouseOver={changeBackground}
