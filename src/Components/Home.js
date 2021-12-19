@@ -2,15 +2,6 @@ import React from "react";
 import { Row, Col, Form } from "react-bootstrap";
 
 const Home = () => {
-  function changeBackground(e) {
-    e.target.style.color = "#cc7000";
-    e.target.style.fontSize = "50px";
-  }
-  function changeBackground1(e) {
-    e.target.style.color = "black";
-    e.target.style.fontSize = "40px";
-  }
-
   return (
     <div className="container" style={{ marginTop: "100px" }}>
       <div className="container">
@@ -55,16 +46,17 @@ const Home = () => {
                 University after completing Bachelor of Engineering in
                 Mechanical Engineering.<br></br>
                 <br></br>
-                As a web developer, I enjoy bridging the gap between engineering
-                and design — combining my technical knowledge with my keen eye
-                for design to create a beautiful product. My goal is to always
-                build applications that are scalable and efficient under the
-                hood while providing engaging, pixel-perfect user experiences.
+                As a Software Engineer, I enjoy bridging the gap between
+                engineering and design — combining my technical knowledge with
+                my keen eye for design to create a beautiful product. My goal is
+                to always build applications that are scalable and efficient
+                under the hood while providing engaging, pixel-perfect user
+                experiences.
               </p>
               <p>
                 <a
                   className="fw-800 btn btn-outline-dark "
-                  href="https://drive.google.com/file/d/1W-_G9hQV3Lgao6_KwvFBQXVxM6iq5v4d/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1VGdE6b-TUg4pCBPiRbk2ftBh82SHDts9/view?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -83,32 +75,29 @@ const Home = () => {
             </Col>
             <Col className="lead fs-10 " xs={8}>
               <div>
-                <Row className="py-5 ">
+                <Row className="py-3 ">
                   <Col xs={3}>
                     <div style={{ fontSize: "40px", marginLeft: "20px" }}>
-                      <i
-                        className="fab fa-html5 "
-                        onMouseOver={changeBackground}
-                        onMouseOut={changeBackground1}
-                      ></i>
+                      <img
+                        src="https://img.icons8.com/color/50/000000/html-5--v1.png"
+                        alt="html5"
+                      />
                     </div>
                   </Col>
                   <Col xs={3}>
                     <div style={{ fontSize: "40px", marginLeft: "20px" }}>
-                      <i
-                        className="fab fa-css3 "
-                        onMouseOver={changeBackground}
-                        onMouseOut={changeBackground1}
-                      ></i>
+                      <img
+                        src="https://img.icons8.com/color/48/000000/css3.png"
+                        alt="css3"
+                      />
                     </div>
                   </Col>
                   <Col xs={3}>
                     <div style={{ fontSize: "40px", marginLeft: "20px" }}>
-                      <i
-                        className="fab fa-js "
-                        onMouseOver={changeBackground}
-                        onMouseOut={changeBackground1}
-                      ></i>
+                      <img
+                        src="https://img.icons8.com/color/48/000000/javascript--v1.png"
+                        alt="js"
+                      />
                     </div>
                   </Col>
                   <Col xs={3}>
@@ -118,17 +107,16 @@ const Home = () => {
                         marginLeft: "20px",
                       }}
                     >
-                      <i
-                        className="fab fa-react "
-                        onMouseOver={changeBackground}
-                        onMouseOut={changeBackground1}
-                      ></i>
+                      <img
+                        src="https://img.icons8.com/office/48/000000/react.png"
+                        alt="reactjs"
+                      />
                     </div>
                   </Col>
                 </Row>
               </div>
               <div>
-                <Row className="py-1 ">
+                <Row className="py-3 ">
                   <Col xs={3}>
                     <div
                       style={{
@@ -136,11 +124,10 @@ const Home = () => {
                         marginLeft: "20px",
                       }}
                     >
-                      <i
-                        className="fab fa-python "
-                        onMouseOver={changeBackground}
-                        onMouseOut={changeBackground1}
-                      ></i>
+                      <img
+                        src="https://img.icons8.com/ios/48/000000/redux.png"
+                        alt="redux"
+                      />
                     </div>
                   </Col>
                   <Col xs={3}>
@@ -150,29 +137,72 @@ const Home = () => {
                         marginLeft: "20px",
                       }}
                     >
-                      <i
-                        className="fab fa-github"
-                        onMouseOver={changeBackground}
-                        onMouseOut={changeBackground1}
-                      ></i>
+                      <img
+                        src="https://img.icons8.com/fluency/50/000000/node-js.png"
+                        alt="nodejs"
+                      />
                     </div>
                   </Col>
                   <Col xs={3}>
                     <div style={{ fontSize: "40px", marginLeft: "20px" }}>
-                      <i
-                        className="fab fa-node"
-                        onMouseOver={changeBackground}
-                        onMouseOut={changeBackground1}
-                      ></i>
+                      <img
+                        src="https://img.icons8.com/color/48/000000/mongodb.png"
+                        alt="mongoDb"
+                      />
                     </div>
                   </Col>
                   <Col xs={3}>
                     <div style={{ fontSize: "40px", marginLeft: "20px" }}>
-                      <i
-                        className="fab fa-npm "
-                        onMouseOver={changeBackground}
-                        onMouseOut={changeBackground1}
-                      ></i>
+                      <img
+                        src="https://img.icons8.com/color/48/000000/npm.png"
+                        alt="npm"
+                      />
+                    </div>
+                  </Col>
+                </Row>
+              </div>
+              <div>
+                <Row className="py-3 ">
+                  <Col xs={3}>
+                    <div
+                      style={{
+                        fontSize: "40px",
+                        marginLeft: "20px",
+                      }}
+                    >
+                      <img
+                        src="https://img.icons8.com/material/48/000000/amazon-web-services.png"
+                        alt="aws"
+                      />
+                    </div>
+                  </Col>
+                  <Col xs={3}>
+                    <div
+                      style={{
+                        fontSize: "40px",
+                        marginLeft: "20px",
+                      }}
+                    >
+                      <img
+                        src="https://img.icons8.com/color/48/000000/amazon-s3.png"
+                        alt="aws-S3"
+                      />
+                    </div>
+                  </Col>
+                  <Col xs={3}>
+                    <div style={{ fontSize: "40px", marginLeft: "20px" }}>
+                      <img
+                        src="https://img.icons8.com/fluency/48/000000/github.png"
+                        alt="git"
+                      />
+                    </div>
+                  </Col>
+                  <Col xs={3}>
+                    <div style={{ fontSize: "40px", marginLeft: "20px" }}>
+                      <img
+                        src="https://img.icons8.com/color/48/000000/firebase.png"
+                        alt="firebase"
+                      />
                     </div>
                   </Col>
                 </Row>
@@ -189,46 +219,6 @@ const Home = () => {
             </Col>
             <Col className="mt-5 lead fs-10 " xs={8}>
               <a
-                className="fw-bold btn "
-                href="https://github.com/sujit6060/WeatherApp"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Weather App <i className="fas fa-arrow-right"></i>
-              </a>
-              <br></br>
-              <p className="lead" style={{ fontSize: "12px" }}>
-                A web app to help you to know Temperatures in your side to all
-                along world.
-                <span
-                  style={{
-                    marginTop: "20px",
-                    display: "flex",
-                    justifyContent: "space-between",
-                    width: "280px",
-                  }}
-                >
-                  <span
-                    className="btn btn-outline-dark btn-sm"
-                    style={{ fontSize: "12px" }}
-                  >
-                    ReactJs
-                  </span>
-                  <span
-                    className="btn btn-outline-dark btn-sm"
-                    style={{ fontSize: "12px" }}
-                  >
-                    React-Bootstrap
-                  </span>
-                  <span
-                    className="btn btn-outline-dark btn-sm"
-                    style={{ fontSize: "12px" }}
-                  >
-                    OpenweatherApi
-                  </span>
-                </span>
-              </p>
-              <a
                 className="fw-bold btn mt-3 "
                 href="https://github.com/sujit6060/WatchMyShow"
                 target="_blank"
@@ -237,7 +227,7 @@ const Home = () => {
                 WatchMyShow <i className="fas fa-arrow-right"></i>
               </a>
               <br></br>
-              <p className="lead" style={{ fontSize: "20px" }}>
+              <p className="lead" style={{ fontSize: "18px" }}>
                 Movie web app that shows the latest trending movies.
                 <span
                   style={{
@@ -269,6 +259,86 @@ const Home = () => {
                 </span>
               </p>
               <a
+                className="fw-bold btn "
+                href="https://github.com/sujit6060/Crypto_World"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Crypto_World <i className="fas fa-arrow-right"></i>
+              </a>
+              <br></br>
+              <p className="lead" style={{ fontSize: "18px" }}>
+                A web app to help you to know CryptoCurrency market
+                price,trending coins in world with graphical representation.
+                <span
+                  style={{
+                    marginTop: "20px",
+                    display: "flex",
+                    justifyContent: "space-between",
+                    width: "280px",
+                  }}
+                >
+                  <span
+                    className="btn btn-outline-dark btn-sm"
+                    style={{ fontSize: "12px" }}
+                  >
+                    ReactJs
+                  </span>
+                  <span
+                    className="btn btn-outline-dark btn-sm"
+                    style={{ fontSize: "12px" }}
+                  >
+                    Material-Ui
+                  </span>
+                  <span
+                    className="btn btn-outline-dark btn-sm"
+                    style={{ fontSize: "12px" }}
+                  >
+                    CryptoCurrency Api
+                  </span>
+                </span>
+              </p>
+              <a
+                className="fw-bold btn "
+                href="https://github.com/sujit6060/WeatherApp"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Weather App <i className="fas fa-arrow-right"></i>
+              </a>
+              <br></br>
+              <p className="lead" style={{ fontSize: "18px" }}>
+                A web app to help you to know Temperatures in your side to all
+                along world.
+                <span
+                  style={{
+                    marginTop: "20px",
+                    display: "flex",
+                    justifyContent: "space-between",
+                    width: "280px",
+                  }}
+                >
+                  <span
+                    className="btn btn-outline-dark btn-sm"
+                    style={{ fontSize: "12px" }}
+                  >
+                    ReactJs
+                  </span>
+                  <span
+                    className="btn btn-outline-dark btn-sm"
+                    style={{ fontSize: "12px" }}
+                  >
+                    React-Bootstrap
+                  </span>
+                  <span
+                    className="btn btn-outline-dark btn-sm"
+                    style={{ fontSize: "12px" }}
+                  >
+                    OpenweatherApi
+                  </span>
+                </span>
+              </p>
+              <a
                 className="fw-bold btn  mt-3"
                 href="https://github.com/sujit6060/Trend-Shop"
                 target="_blank"
@@ -277,7 +347,7 @@ const Home = () => {
                 Trend-Shop <i className="fas fa-arrow-right"></i>
               </a>
               <br></br>
-              <p className="lead" style={{ fontSize: "20px" }}>
+              <p className="lead" style={{ fontSize: "18px" }}>
                 Ecommerce website to purchase online with cart and checkout.
                 <span
                   style={{
@@ -313,39 +383,7 @@ const Home = () => {
                   </span>
                 </span>
               </p>
-              <a
-                className="fw-bold btn  mt-3"
-                href="https://github.com/sujit6060/BuyBookNow"
-                target="_blank"
-                rel="noreferrer"
-              >
-                BuyBookNow <i className="fas fa-arrow-right"></i>
-              </a>
-              <br></br>
-              <p className="lead" style={{ fontSize: "20px" }}>
-                ECommerce website to purchase books.
-                <span
-                  style={{
-                    marginTop: "20px",
-                    display: "flex",
-                    justifyContent: "space-between",
-                    width: "170px",
-                  }}
-                >
-                  <span
-                    className="btn btn-outline-dark btn-sm"
-                    style={{ fontSize: "12px" }}
-                  >
-                    ReactJs
-                  </span>
-                  <span
-                    className="btn btn-outline-dark btn-sm"
-                    style={{ fontSize: "12px" }}
-                  >
-                    React-Bootstrap
-                  </span>
-                </span>
-              </p>
+
               <div style={{ marginTop: "50px" }}>
                 <a
                   style={{ color: "black" }}
