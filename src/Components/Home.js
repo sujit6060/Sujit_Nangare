@@ -56,7 +56,7 @@ const Home = () => {
               <p>
                 <a
                   className="fw-800 btn btn-outline-dark "
-                  href="https://drive.google.com/file/d/1VGdE6b-TUg4pCBPiRbk2ftBh82SHDts9/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1dmgSiGe9bXU7376wZ-qG83SDH6SkDLgM/view?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                 >
