@@ -13,7 +13,7 @@ const Home = () => {
             </span>
           </h1>
           <h1 className="lead" style={{ fontSize: "50px" }}>
-            a web developer based in Pune, India. <br></br>I love building
+            a Software Engineer based in Pune, India. <br></br>I love building
             beautiful interfaces,
             <br></br> web apps and everything in between!
           </h1>
@@ -295,6 +295,57 @@ const Home = () => {
                     style={{ fontSize: "12px" }}
                   >
                     CryptoCurrency Api
+                  </span>
+                </span>
+              </p>
+              <a
+                className="fw-bold btn "
+                href="https://github.com/sujit6060/Memories_App"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Memories App <i className="fas fa-arrow-right"></i>
+              </a>
+              <br></br>
+              <p className="lead" style={{ fontSize: "18px" }}>
+                Mern stack web app to creating a memories with like option.
+                <span
+                  style={{
+                    marginTop: "20px",
+                    display: "flex",
+                    justifyContent: "space-between",
+                    width: "350px",
+                  }}
+                >
+                  <span
+                    className="btn btn-outline-dark btn-sm"
+                    style={{ fontSize: "12px" }}
+                  >
+                    ReactJs
+                  </span>
+                  <span
+                    className="btn btn-outline-dark btn-sm"
+                    style={{ fontSize: "12px" }}
+                  >
+                    Material-ui
+                  </span>
+                  <span
+                    className="btn btn-outline-dark btn-sm"
+                    style={{ fontSize: "12px" }}
+                  >
+                    Nodejs
+                  </span>
+                  <span
+                    className="btn btn-outline-dark btn-sm"
+                    style={{ fontSize: "12px" }}
+                  >
+                    ExpressJs
+                  </span>
+                  <span
+                    className="btn btn-outline-dark btn-sm"
+                    style={{ fontSize: "12px" }}
+                  >
+                    MongoDb
                   </span>
                 </span>
               </p>
