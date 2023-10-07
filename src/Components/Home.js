@@ -492,6 +492,7 @@ const Home = () => {
                   style={{ color: "black" }}
                   className="lead fw-bold "
                   target="_blank"
+                  rel="noreferrer"
                   href="https://github.com/sujit6060"
                 >
                   Check my other projects on github.
@@ -519,6 +520,7 @@ const Home = () => {
             <a
               className="fw-bold"
               target="_blank"
+              rel="noreferrer"
               href="https://www.linkedin.com/in/sujit6060/"
             >
               Linkedin
@@ -526,6 +528,7 @@ const Home = () => {
             <a
               className="lead fw-bold"
               target="_blank"
+              rel="noreferrer"
               href="https://github.com/sujit6060"
             >
               Github
@@ -533,6 +536,7 @@ const Home = () => {
             <a
               className="lead fw-bold"
               target="_blank"
+              rel="noreferrer"
               href="https://twitter.com/SujeetNangare"
             >
               Twitter
@@ -540,6 +544,7 @@ const Home = () => {
             <a
               className="lead fw-bold"
               target="_blank"
+              rel="noreferrer"
               href="https://www.facebook.com/sujit.nangare.73/"
             >
               Facebook
