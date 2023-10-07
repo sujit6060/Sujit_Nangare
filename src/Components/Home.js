@@ -7,45 +7,51 @@ const Home = () => {
       <div className="container">
         <div className="fw-bolder lead">
           <h1 style={{ fontSize: "50px" }}>
-            Hey , I'm{" "}
+            Hey, I'm{" "}
             <span style={{ color: "#cc7000" }}>
               SUJIT NANGARE <i className="fas fa-hand-paper"></i>
             </span>
           </h1>
           <h1 className="lead" style={{ fontSize: "50px" }}>
-            a Software Engineer based in Pune, India. <br></br>I love building
+            a Software Engineer based in Pune, India. <br />I love building
             beautiful interfaces,
-            <br></br> web apps and everything in between!
+            <br /> web apps and everything in between!
           </h1>
-          <br></br>
-          <span className="lead " style={{ fontSize: "30px" }}>
-            Get in Touch <i className="fas fa-arrow-right"></i>
+          <br />
+          <span className="lead" style={{ fontSize: "30px" }}>
+            Get in Touch <i className="fas fa-arrow-right"></i>&nbsp;
             <span
               style={{
                 cursor: "pointer",
                 borderBottom: "3px solid #cc7000",
                 fontWeight: "400",
+                textDecoration: "none", // Remove the default underline
               }}
             >
-              {" "}
-              sujeetnangare@gmail.com{" "}
+              <a
+                href="mailto:sujeetnangare@gmail.com"
+                style={{ color: "inherit", textDecoration: "none" }} // Set color and remove underline
+              >
+                SujeetNangare@gmail.com
+              </a>
             </span>
           </span>
         </div>
         <Form className="my-5">
-          <Row className=" lead ">
-            <Col className="lead  text-center" xs={4}>
+          <Row className="lead">
+            <Col className="lead text-center" xs={12} md={4}>
               <span className="fw-bold" style={{ color: "#cc7000" }}>
                 BACKGROUND
               </span>
             </Col>
-            <Col className="mt-5 lead fs-10 " xs={8}>
+            <Col className="mt-5 lead fs-10" xs={12} md={8}>
               <p>
                 I recently graduated from{" "}
                 <strong className="fw-800"> Savitiribai Phule Pune</strong>{" "}
-                University after completing Bachelor of Engineering in
-                Mechanical Engineering.<br></br>
-                <br></br>
+                University after completing a Bachelor of Engineering in
+                Mechanical Engineering.
+                <br />
+                <br />
                 As a Software Engineer, I enjoy bridging the gap between
                 engineering and design — combining my technical knowledge with
                 my keen eye for design to create a beautiful product. My goal is
@@ -55,8 +61,8 @@ const Home = () => {
               </p>
               <p>
                 <a
-                  className="fw-800 btn btn-outline-dark "
-                  href="https://drive.google.com/file/d/1dmgSiGe9bXU7376wZ-qG83SDH6SkDLgM/view?usp=sharing"
+                  className="fw-800 btn btn-outline-dark"
+                  href="https://drive.google.com/file/d/1DrDyRvmcmllM12STaQYiuslt1Ao4Fneq/view?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -67,15 +73,15 @@ const Home = () => {
           </Row>
         </Form>
         <Form className="my-5" style={{ cursor: "pointer" }}>
-          <Row className=" lead ">
-            <Col className="mt-5 lead text-center" xs={4}>
+          <Row className="lead">
+            <Col className="mt-5 lead text-center" xs={12} md={4}>
               <span className="fw-bold" style={{ color: "#cc7000" }}>
                 SKILLS
               </span>
             </Col>
-            <Col className="lead fs-10 " xs={8}>
+            <Col className="lead fs-10" xs={12} md={8}>
               <div>
-                <Row className="py-3 ">
+                <Row className="py-3">
                   <Col xs={3}>
                     <div style={{ fontSize: "40px", marginLeft: "20px" }}>
                       <img
@@ -95,7 +101,7 @@ const Home = () => {
                   <Col xs={3}>
                     <div style={{ fontSize: "40px", marginLeft: "20px" }}>
                       <img
-                        src="https://img.icons8.com/color/48/000000/javascript--v1.png"
+                        src="https://img.icons8.com/color/javascript"
                         alt="js"
                       />
                     </div>
@@ -171,6 +177,52 @@ const Home = () => {
                       }}
                     >
                       <img
+                        src="https://img.icons8.com/color/jenkins"
+                        alt="jenkins"
+                      />
+                    </div>
+                  </Col>
+                  <Col xs={3}>
+                    <div
+                      style={{
+                        fontSize: "40px",
+                        marginLeft: "20px",
+                      }}
+                    >
+                      <img
+                        src="https://img.icons8.com/color/salesforce"
+                        alt="salesforce"
+                      />
+                    </div>
+                  </Col>
+                  <Col xs={3}>
+                    <div style={{ fontSize: "40px", marginLeft: "20px" }}>
+                      <img
+                        src="https://img.icons8.com/color/mysql"
+                        alt="mysql"
+                      />
+                    </div>
+                  </Col>
+                  <Col xs={3}>
+                    <div style={{ fontSize: "40px", marginLeft: "20px" }}>
+                      <img
+                        src="https://img.icons8.com/color/typescript"
+                        alt="typescript"
+                      />
+                    </div>
+                  </Col>
+                </Row>
+              </div>
+              <div>
+                <Row className="py-3 ">
+                  <Col xs={3}>
+                    <div
+                      style={{
+                        fontSize: "40px",
+                        marginLeft: "20px",
+                      }}
+                    >
+                      <img
                         src="https://img.icons8.com/material/48/000000/amazon-web-services.png"
                         alt="aws"
                       />
@@ -211,13 +263,13 @@ const Home = () => {
           </Row>
         </Form>
         <Form className="my-5">
-          <Row className=" lead ">
-            <Col className="mt-5 lead text-center" xs={4}>
+          <Row className="lead">
+            <Col className="mt-5 lead text-center" xs={12} md={4}>
               <span className="fw-bold" style={{ color: "#cc7000" }}>
                 PROJECTS
               </span>
             </Col>
-            <Col className="mt-5 lead fs-10 " xs={8}>
+            <Col className="mt-5 lead fs-10" xs={12} md={8}>
               <a
                 className="fw-bold btn mt-3 "
                 href="https://github.com/sujit6060/WatchMyShow"
@@ -439,6 +491,7 @@ const Home = () => {
                 <a
                   style={{ color: "black" }}
                   className="lead fw-bold "
+                  target="_blank"
                   href="https://github.com/sujit6060"
                 >
                   Check my other projects on github.
@@ -449,36 +502,44 @@ const Home = () => {
         </Form>
       </div>
       <Form>
-        <Row className=" lead mt-5 ">
-          <Col className="mt-5 lead" xs={8}>
+        <Row className="lead mt-5">
+          <Col className="mt-5 lead" xs={12} md={8}>
             <span className="fw-bold lead" style={{ color: "gray" }}>
               Created By
-              <br></br>
+              <br />
               Sujit Nangare <i className="far fa-hand-peace"></i>
             </span>
           </Col>
           <Col
-            className="mt-5 fs-10 "
-            xs={4}
+            className="mt-5 fs-10"
+            xs={12}
+            md={4}
             style={{ display: "flex", justifyContent: "space-between" }}
           >
             <a
-              className="fw-bold "
+              className="fw-bold"
+              target="_blank"
               href="https://www.linkedin.com/in/sujit6060/"
             >
               Linkedin
             </a>
-            <a className="lead fw-bold " href="https://github.com/sujit6060">
+            <a
+              className="lead fw-bold"
+              target="_blank"
+              href="https://github.com/sujit6060"
+            >
               Github
             </a>
             <a
-              className="lead fw-bold "
+              className="lead fw-bold"
+              target="_blank"
               href="https://twitter.com/SujeetNangare"
             >
               Twitter
             </a>
             <a
-              className="lead fw-bold "
+              className="lead fw-bold"
+              target="_blank"
               href="https://www.facebook.com/sujit.nangare.73/"
             >
               Facebook
